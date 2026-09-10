@@ -8,6 +8,7 @@ class Ebook(Book):
     def __init__(self, title, author, price):
         super().__init__(title,author,price)
         self.file_size = 0.0
+        
 
     def get_info(self):
         self.title = input("enter the tittle of the book: " ) 
